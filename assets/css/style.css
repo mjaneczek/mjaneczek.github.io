@@ -8,7 +8,7 @@ body {
 
 section {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 60px;
   position: relative; }
 
 img {
@@ -73,7 +73,7 @@ input, textarea {
   text-transform: uppercase;
   color: #000;
   font-weight: 500;
-  top: -30px;
+  top: -50px;
   position: relative;
   display: inline-block; }
   .section-title:after {
@@ -1490,7 +1490,7 @@ input, textarea {
 
 @media (max-width: 576px) {
   .section-title {
-    top: 0; }
+    top: -30px; }
   .background-text {
     display: none; } }
 
