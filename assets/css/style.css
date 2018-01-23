@@ -921,20 +921,20 @@ input, textarea {
 .portfolio-block {
   position: relative;
   margin-top: 30px; }
-  .portfolio-block:hover .portfolio-overlay {
+  .portfolio-block .portfolio-overlay {
     opacity: 1; }
-  .portfolio-block:hover .portfolio-desc {
+  .portfolio-block .portfolio-desc {
     margin-top: 30px;
     opacity: 1; }
 
 .portfolio-overlay {
-  background: -moz-linear-gradient(left, rgba(251, 136, 29, 0.9) 0%, rgba(255, 173, 52, 0.9) 100%);
+  background: -moz-linear-gradient(left, rgba(251, 136, 29, 0.7) 0%, rgba(255, 173, 52, 0.7) 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, rgba(251, 136, 29, 0.9) 0%, rgba(255, 173, 52, 0.9) 100%);
+  background: -webkit-linear-gradient(left, rgba(251, 136, 29, 0.7) 0%, rgba(255, 173, 52, 0.7) 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(rgba(251, 136, 29, 0.9)), to(rgba(255, 173, 52, 0.9)));
-  background: -o-linear-gradient(left, rgba(251, 136, 29, 0.9) 0%, rgba(255, 173, 52, 0.9) 100%);
-  background: linear-gradient(to right, rgba(251, 136, 29, 0.9) 0%, rgba(255, 173, 52, 0.9) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(251, 136, 29, 0.7)), to(rgba(255, 173, 52, 0.7)));
+  background: -o-linear-gradient(left, rgba(251, 136, 29, 0.7) 0%, rgba(255, 173, 52, 0.7) 100%);
+  background: linear-gradient(to right, rgba(251, 136, 29, 0.7) 0%, rgba(255, 173, 52, 0.7) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba($top-color, $opacity)', endColorstr='rgba($top-color, $opacity)',GradientType=0 );
   /* IE6-9 */
