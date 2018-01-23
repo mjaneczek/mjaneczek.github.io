@@ -750,7 +750,7 @@ input, textarea {
   background-size: cover; }
 
 .quote-slides {
-  padding-top: 150px; }
+  padding-top: 30px; }
   .quote-slides .owl-dots {
     background: rgba(244, 244, 244, 0.3);
     margin-top: 50px; }
