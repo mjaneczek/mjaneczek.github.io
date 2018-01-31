@@ -800,6 +800,10 @@ input, textarea {
 .quote-text p {
   margin-bottom: 20px; }
 
+.quote-full {
+  min-height: 275px;
+}
+
 .author-name {
   font-size: 18px;
   font-weight: normal; }
@@ -1494,3 +1498,9 @@ input, textarea {
   .background-text {
     display: none; } }
 
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
