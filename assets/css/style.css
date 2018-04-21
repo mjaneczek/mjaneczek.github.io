@@ -1504,3 +1504,7 @@ input, textarea {
   display: -ms-flexbox;
   display:         flex;
 }
+
+.intro-hero-img {
+  width: 200px;
+}
